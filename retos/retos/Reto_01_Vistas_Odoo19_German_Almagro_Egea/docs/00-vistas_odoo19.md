@@ -1,5 +1,5 @@
-# Vistas en Odoo 19 — {Nombre Apellidos}
-**Reto:** Reto_01_Vistas_Odoo19_{Nombre}_{Apellidos}  
+# Vistas en Odoo 19 — German Almagro Egea
+**Reto:** Reto_01_Vistas_Odoo19_German_Almagro_Egea  
 **Proyecto:** Proyecto_RA3_UT3  
 **Fecha:** 2025-11-21
 
@@ -47,6 +47,10 @@
 
 ## Modo desarrollador: cómo verificar el tipo de vista
 1. Activa **Developer Mode** (Preferencias → Activar modo desarrollador).
+
+![Desarrollador](../assets/img/01-list/paso01_desarrolo.png )
+
+
 2. En la vista actual, usa el **icono del bug** → *Editar vista*.
 3. Anota:
    - **Tipo** (`tree`, `form`, `kanban`, `search`, `calendar`, `graph`, `pivot`, `activity`, `cohort`, `gantt`, `grid`, `map`, `hierarchy`…)
@@ -62,7 +66,14 @@
 **Cómo llegar**: Navega al menú, pulsa el **icono de tabla**.  
 **Comprobación (dev mode)**: *Editar vista* → tipo `tree`.  
 **Capturas**:  
-![Lista Contactos](../assets/img/01-list/paso01_vista-lista-contactos.png "Vista List/Tree en Contactos")
+
+
+![Lista Contactos](../assets/img/01-list/paso03_no.png "Vista List/Tree en Contactos")
+
+![Lista Contactos](../assets/img/01-list/paso02_si.png "Vista List/Tree en Contactos")
+
+
+
 
 ### 02 Form
 **Dónde**: Clic en un registro desde la lista.  
@@ -80,7 +91,9 @@
 **Dónde**: Barra superior en listas/kanban.  
 **Comprobación**: tipo `search` (estructura técnica).  
 **Capturas**:  
-![Search](../assets/img/04-search/paso01_search-filtros.png "Search/Filtros")
+![Search](../assets/img/04-search/paso02_si.png)
+
+![Search](../assets/img/04-search/paso01_no.png)
 
 ### 05 Calendar
 **Dónde**: Calendario / Project / CRM.  
@@ -92,7 +105,9 @@
 **Dónde**: *Reporting* en varios módulos.  
 **Comprobación**: tipo `graph`.  
 **Capturas**:  
+
 ![Graph](../assets/img/06-graph/paso01_graph.png "Graph")
+
 
 ### 07 Pivot
 **Dónde**: *Reporting*.  
@@ -109,6 +124,8 @@
 **Comprobación**: tipo `activity`.  
 **Capturas**:  
 ![Activity](../assets/img/08-activity/paso01_activity.png "Activity")
+
+
 
 ### 09 Cohort (Enterprise)
 **Dónde**: CRM/Helpdesk/Suscripciones → *Reporting → Cohort*.  
@@ -153,9 +170,8 @@
 ---
 
 ## Checklist final
-- [ ] Todas las **vistas cubiertas** (o alternativa con documentación oficial).
-- [ ] **Developer Mode** usado y **tipo de vista verificado** en cada sección.
-- [ ] **Capturas nítidas**, rutas relativas correctas y `alt/title` informativos.
-- [ ] Se indica **cómo llegar** a cada vista desde el menú.
-- [ ] **Bibliografía** con fuentes oficiales / artículos técnicos.
-- [ ] **PDF único** consolidado generado a partir del Markdown.
+- [X] Todas las **vistas cubiertas** (o alternativa con documentación oficial).
+- [X] **Capturas nítidas**, rutas relativas correctas y `alt/title` informativos.
+- [X] Se indica **cómo llegar** a cada vista desde el menú.
+- [X] **Bibliografía** con fuentes oficiales / artículos técnicos.
+- [X] **PDF único** consolidado generado a partir del Markdown.
